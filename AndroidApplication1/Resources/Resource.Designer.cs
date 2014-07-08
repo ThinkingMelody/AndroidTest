@@ -63,143 +63,182 @@ namespace AndroidApplication1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050006
-			public const int btnBaseNotification = 2131034118;
+			// aapt resource value: 0x7f06001d
+			public const int ReadInternal = 2131099677;
 			
-			// aapt resource value: 0x7f050004
-			public const int btnBlackWidow = 2131034116;
+			// aapt resource value: 0x7f06001a
+			public const int btn1 = 2131099674;
 			
-			// aapt resource value: 0x7f050018
-			public const int btnCall = 2131034136;
+			// aapt resource value: 0x7f060019
+			public const int btnAlert = 2131099673;
 			
-			// aapt resource value: 0x7f050019
-			public const int btnCallHistory = 2131034137;
+			// aapt resource value: 0x7f060000
+			public const int btnAssignText = 2131099648;
 			
-			// aapt resource value: 0x7f05001e
-			public const int btnChild = 2131034142;
+			// aapt resource value: 0x7f060008
+			public const int btnBaseNotification = 2131099656;
 			
-			// aapt resource value: 0x7f05001c
-			public const int btnClickButton = 2131034140;
+			// aapt resource value: 0x7f060006
+			public const int btnBlackWidow = 2131099654;
 			
-			// aapt resource value: 0x7f05001a
-			public const int btnConfigInstance = 2131034138;
+			// aapt resource value: 0x7f060022
+			public const int btnCall = 2131099682;
 			
-			// aapt resource value: 0x7f050007
-			public const int btnIDNotification = 2131034119;
+			// aapt resource value: 0x7f060023
+			public const int btnCallHistory = 2131099683;
 			
-			// aapt resource value: 0x7f050005
-			public const int btnIronMan = 2131034117;
+			// aapt resource value: 0x7f060018
+			public const int btnCamera = 2131099672;
 			
-			// aapt resource value: 0x7f050002
-			public const int btnLoad = 2131034114;
+			// aapt resource value: 0x7f060028
+			public const int btnChild = 2131099688;
 			
-			// aapt resource value: 0x7f05001b
-			public const int btnMyButton = 2131034139;
+			// aapt resource value: 0x7f060026
+			public const int btnClickButton = 2131099686;
 			
-			// aapt resource value: 0x7f05002c
-			public const int btnRotation = 2131034156;
+			// aapt resource value: 0x7f060024
+			public const int btnConfigInstance = 2131099684;
 			
-			// aapt resource value: 0x7f050001
-			public const int btnSave = 2131034113;
+			// aapt resource value: 0x7f060009
+			public const int btnIDNotification = 2131099657;
 			
-			// aapt resource value: 0x7f050008
-			public const int btnStartActivity = 2131034120;
+			// aapt resource value: 0x7f060007
+			public const int btnIronMan = 2131099655;
 			
-			// aapt resource value: 0x7f05001d
-			public const int btnToastImage = 2131034141;
+			// aapt resource value: 0x7f060004
+			public const int btnLoad = 2131099652;
 			
-			// aapt resource value: 0x7f050017
-			public const int btnTranslate = 2131034135;
+			// aapt resource value: 0x7f060025
+			public const int btnMyButton = 2131099685;
 			
-			// aapt resource value: 0x7f050022
-			public const int button1 = 2131034146;
+			// aapt resource value: 0x7f06001f
+			public const int btnReadFolder = 2131099679;
 			
-			// aapt resource value: 0x7f050024
-			public const int button3 = 2131034148;
+			// aapt resource value: 0x7f060036
+			public const int btnRotation = 2131099702;
 			
-			// aapt resource value: 0x7f050025
-			public const int button4 = 2131034149;
+			// aapt resource value: 0x7f060003
+			public const int btnSave = 2131099651;
 			
-			// aapt resource value: 0x7f050026
-			public const int button5 = 2131034150;
+			// aapt resource value: 0x7f06000a
+			public const int btnStartActivity = 2131099658;
 			
-			// aapt resource value: 0x7f050028
-			public const int button6 = 2131034152;
+			// aapt resource value: 0x7f060027
+			public const int btnToastImage = 2131099687;
 			
-			// aapt resource value: 0x7f05002b
-			public const int button7 = 2131034155;
+			// aapt resource value: 0x7f060021
+			public const int btnTranslate = 2131099681;
 			
-			// aapt resource value: 0x7f050013
-			public const int checkBox1 = 2131034131;
+			// aapt resource value: 0x7f06001e
+			public const int btnWriteFolder = 2131099678;
 			
-			// aapt resource value: 0x7f050021
-			public const int checkBox2 = 2131034145;
+			// aapt resource value: 0x7f06001c
+			public const int btnWriteInternal = 2131099676;
 			
-			// aapt resource value: 0x7f050027
-			public const int datePicker1 = 2131034151;
+			// aapt resource value: 0x7f06002c
+			public const int button1 = 2131099692;
 			
-			// aapt resource value: 0x7f050016
-			public const int etxtPhoneNumberText = 2131034134;
+			// aapt resource value: 0x7f06002e
+			public const int button3 = 2131099694;
 			
-			// aapt resource value: 0x7f05000a
-			public const int imageButton1 = 2131034122;
+			// aapt resource value: 0x7f06002f
+			public const int button4 = 2131099695;
 			
-			// aapt resource value: 0x7f050015
-			public const int imageView1 = 2131034133;
+			// aapt resource value: 0x7f060030
+			public const int button5 = 2131099696;
 			
-			// aapt resource value: 0x7f050012
-			public const int linearLayout1 = 2131034130;
+			// aapt resource value: 0x7f060032
+			public const int button6 = 2131099698;
 			
-			// aapt resource value: 0x7f05000c
-			public const int radioButton1 = 2131034124;
+			// aapt resource value: 0x7f060035
+			public const int button7 = 2131099701;
 			
-			// aapt resource value: 0x7f05000d
-			public const int radioButton2 = 2131034125;
+			// aapt resource value: 0x7f060015
+			public const int checkBox1 = 2131099669;
 			
-			// aapt resource value: 0x7f05000e
-			public const int radioButton3 = 2131034126;
+			// aapt resource value: 0x7f06002b
+			public const int checkBox2 = 2131099691;
 			
-			// aapt resource value: 0x7f05000f
-			public const int radioButton4 = 2131034127;
+			// aapt resource value: 0x7f060031
+			public const int datePicker1 = 2131099697;
 			
-			// aapt resource value: 0x7f050010
-			public const int radioButton5 = 2131034128;
+			// aapt resource value: 0x7f060001
+			public const int editTextContent = 2131099649;
 			
-			// aapt resource value: 0x7f05000b
-			public const int radioGroup1 = 2131034123;
+			// aapt resource value: 0x7f060020
+			public const int etxtPhoneNumberText = 2131099680;
 			
-			// aapt resource value: 0x7f050014
-			public const int relativeLayout1 = 2131034132;
+			// aapt resource value: 0x7f06000c
+			public const int imageButton1 = 2131099660;
 			
-			// aapt resource value: 0x7f05001f
-			public const int tableLayout1 = 2131034143;
+			// aapt resource value: 0x7f060017
+			public const int imageView1 = 2131099671;
 			
-			// aapt resource value: 0x7f050020
-			public const int tableRow2 = 2131034144;
+			// aapt resource value: 0x7f060039
+			public const int itemMenu1 = 2131099705;
 			
-			// aapt resource value: 0x7f050023
-			public const int tableRow3 = 2131034147;
+			// aapt resource value: 0x7f06003a
+			public const int itemMenu2 = 2131099706;
 			
-			// aapt resource value: 0x7f050000
-			public const int textView1 = 2131034112;
+			// aapt resource value: 0x7f060014
+			public const int linearLayout1 = 2131099668;
 			
-			// aapt resource value: 0x7f050029
-			public const int textView2 = 2131034153;
+			// aapt resource value: 0x7f060038
+			public const int menuMain = 2131099704;
 			
-			// aapt resource value: 0x7f05002a
-			public const int textView3 = 2131034154;
+			// aapt resource value: 0x7f06000e
+			public const int radioButton1 = 2131099662;
 			
-			// aapt resource value: 0x7f050011
-			public const int toggleButton1 = 2131034129;
+			// aapt resource value: 0x7f06000f
+			public const int radioButton2 = 2131099663;
 			
-			// aapt resource value: 0x7f050009
-			public const int tvCity = 2131034121;
+			// aapt resource value: 0x7f060010
+			public const int radioButton3 = 2131099664;
 			
-			// aapt resource value: 0x7f050003
-			public const int txtMain = 2131034115;
+			// aapt resource value: 0x7f060011
+			public const int radioButton4 = 2131099665;
 			
-			// aapt resource value: 0x7f05002d
-			public const int wvCylife = 2131034157;
+			// aapt resource value: 0x7f060012
+			public const int radioButton5 = 2131099666;
+			
+			// aapt resource value: 0x7f06000d
+			public const int radioGroup1 = 2131099661;
+			
+			// aapt resource value: 0x7f06001b
+			public const int relativeContainer = 2131099675;
+			
+			// aapt resource value: 0x7f060016
+			public const int relativeLayout1 = 2131099670;
+			
+			// aapt resource value: 0x7f060029
+			public const int tableLayout1 = 2131099689;
+			
+			// aapt resource value: 0x7f06002a
+			public const int tableRow2 = 2131099690;
+			
+			// aapt resource value: 0x7f06002d
+			public const int tableRow3 = 2131099693;
+			
+			// aapt resource value: 0x7f060002
+			public const int textView1 = 2131099650;
+			
+			// aapt resource value: 0x7f060033
+			public const int textView2 = 2131099699;
+			
+			// aapt resource value: 0x7f060034
+			public const int textView3 = 2131099700;
+			
+			// aapt resource value: 0x7f060013
+			public const int toggleButton1 = 2131099667;
+			
+			// aapt resource value: 0x7f06000b
+			public const int tvCity = 2131099659;
+			
+			// aapt resource value: 0x7f060005
+			public const int txtMain = 2131099653;
+			
+			// aapt resource value: 0x7f060037
+			public const int wvCylife = 2131099703;
 			
 			static Id()
 			{
@@ -215,28 +254,43 @@ namespace AndroidApplication1
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Isolate = 2130903040;
+			public const int CustControlLayout = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int LayoutAskQuestion = 2130903041;
+			public const int Isolate = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int LayoutNotification = 2130903042;
+			public const int LayoutAskQuestion = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Login = 2130903043;
+			public const int LayoutNotification = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int Login = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int NotificationCall = 2130903045;
+			public const int ltCamera = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Rotation = 2130903046;
+			public const int ltFlate = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int WebView = 2130903047;
+			public const int ltInternalStorage = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int ltWCF = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int Main = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int NotificationCall = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int Rotation = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int WebView = 2130903052;
 			
 			static Layout()
 			{
@@ -244,6 +298,22 @@ namespace AndroidApplication1
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int OptionMenu = 2131034112;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}

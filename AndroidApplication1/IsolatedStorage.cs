@@ -74,5 +74,34 @@ namespace AndroidApplication1
                     }
                 };
         }
+
+
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            //將Resoirces下的Menu/OptionMenu.xml 載入
+            MenuInflater.Inflate(Resource.Menu.OptionMenu, menu);
+            return true;
+        }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+            switch (item.ItemId)
+            {
+                //如果選取的是 開啟當麻許的超技八
+                case Resource.Id.itemMenu1:
+                    Toast.MakeText(this, "開啟當麻許的超技八", ToastLength.Short).Show();
+                    //開啟一個Inetnt 並且將此呼叫起來
+                    StartActivity(new Intent(Intent.ActionView, Android.Net.Uri.Parse("http://no2don.blogspot.com")));
+                    return true;
+                //如果選取的是 開啟Market的愛料理 Download
+                case Resource.Id.itemMenu2:
+                    Toast.MakeText(this, "開啟Market的愛料理 Download", ToastLength.Short).Show();
+                    //開啟一個Inetnt 並且將此呼叫起來
+                    StartActivity(new Intent(Intent.ActionView, Android.Net.Uri.Parse("market://details?id=" + "com.polydice.icook")));
+                    return true;
+                default:
+                    return base.OnOptionsItemSelected(item);
+            }
+        }
     }
 }

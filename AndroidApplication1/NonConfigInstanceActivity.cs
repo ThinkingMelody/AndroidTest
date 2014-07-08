@@ -36,7 +36,7 @@ namespace AndroidApplication1
             };
 
             var btnIronMan = FindViewById<Button>(Resource.Id.btnIronMan);
-            btnIronMan.Click += delegate
+            btnIronMan.Click += delegate(object sender, EventArgs e)
             {
                 var intent = new Intent(this, typeof(MainActivity));
                 intent.PutExtra("hero", "¿ûÅK¤H");
