@@ -13,7 +13,7 @@ using System.Collections;
 
 namespace AndroidApplication1
 {
-    [Activity(Label = "atWCF", MainLauncher = true)]
+    [Activity(Label = "atWCF")]
     public class atWCF : Activity
     {
         protected override void OnCreate(Bundle bundle)

@@ -12,7 +12,7 @@
         android:text="讀取InternalStorage Note.txt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ReadInternal" />
+        android:id="@+id/btnReadInternal" />
     <Button
         android:text="寫資料夾資料 play/Note.txt"
         android:layout_width="match_parent"

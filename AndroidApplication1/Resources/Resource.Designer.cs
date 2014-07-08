@@ -63,9 +63,6 @@ namespace AndroidApplication1
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06001d
-			public const int ReadInternal = 2131099677;
-			
 			// aapt resource value: 0x7f06001a
 			public const int btn1 = 2131099674;
 			
@@ -113,6 +110,9 @@ namespace AndroidApplication1
 			
 			// aapt resource value: 0x7f06001f
 			public const int btnReadFolder = 2131099679;
+			
+			// aapt resource value: 0x7f06001d
+			public const int btnReadInternal = 2131099677;
 			
 			// aapt resource value: 0x7f060036
 			public const int btnRotation = 2131099702;
