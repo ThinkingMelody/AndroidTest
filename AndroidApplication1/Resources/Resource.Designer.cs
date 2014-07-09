@@ -168,23 +168,29 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f060020
 			public const int etxtPhoneNumberText = 2131099680;
 			
+			// aapt resource value: 0x7f06003a
+			public const int help = 2131099706;
+			
 			// aapt resource value: 0x7f06000c
 			public const int imageButton1 = 2131099660;
 			
 			// aapt resource value: 0x7f060017
 			public const int imageView1 = 2131099671;
 			
-			// aapt resource value: 0x7f060039
-			public const int itemMenu1 = 2131099705;
+			// aapt resource value: 0x7f06003b
+			public const int itemMenu1 = 2131099707;
 			
-			// aapt resource value: 0x7f06003a
-			public const int itemMenu2 = 2131099706;
+			// aapt resource value: 0x7f06003c
+			public const int itemMenu2 = 2131099708;
 			
 			// aapt resource value: 0x7f060014
 			public const int linearLayout1 = 2131099668;
 			
 			// aapt resource value: 0x7f060038
 			public const int menuMain = 2131099704;
+			
+			// aapt resource value: 0x7f060039
+			public const int new_game = 2131099705;
 			
 			// aapt resource value: 0x7f06000e
 			public const int radioButton1 = 2131099662;
@@ -278,19 +284,22 @@ namespace AndroidApplication1
 			public const int ltInternalStorage = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int ltWCF = 2130903048;
+			public const int ltOptionMenu = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int Main = 2130903049;
+			public const int ltWCF = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int NotificationCall = 2130903050;
+			public const int Main = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int Rotation = 2130903051;
+			public const int NotificationCall = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int WebView = 2130903052;
+			public const int Rotation = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int WebView = 2130903053;
 			
 			static Layout()
 			{
@@ -306,7 +315,10 @@ namespace AndroidApplication1
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int OptionMenu = 2131034112;
+			public const int mymenu = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int OptionMenu = 2131034113;
 			
 			static Menu()
 			{
@@ -333,8 +345,14 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f040003
 			public const int counterbutton_text = 2130968579;
 			
+			// aapt resource value: 0x7f040006
+			public const int help = 2130968582;
+			
 			// aapt resource value: 0x7f040004
 			public const int mybutton_text = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int new_game = 2130968581;
 			
 			static String()
 			{

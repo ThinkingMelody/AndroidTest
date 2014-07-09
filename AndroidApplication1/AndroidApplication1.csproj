@@ -64,6 +64,7 @@
     <Compile Include="atWCF.cs" />
     <Compile Include="atyCamera.cs" />
     <Compile Include="atyInternalStorage.cs" />
+    <Compile Include="atyOptionMenu.cs" />
     <Compile Include="BitmapHelpers.cs" />
     <Compile Include="Child1.cs" />
     <Compile Include="CPhoneTranslator.cs" />
@@ -120,6 +121,9 @@
     <AndroidResource Include="Resources\Layout\ltInternalStorage.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ltOptionMenu.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
     <None Include="Web References\CylifeAppReference\AppServices.wsdl" />
     <None Include="Web References\CylifeAppReference\AppServices.xsd">
       <SubType>Designer</SubType>
@@ -156,6 +160,7 @@
     </Content>
     <AndroidResource Include="Resources\Drawable\ic_go.png" />
     <AndroidResource Include="Resources\Menu\OptionMenu.xml" />
+    <AndroidResource Include="Resources\Menu\mymenu.xml" />
     <None Include="Web References\CylifeAppReference\AppServices.disco" />
   </ItemGroup>
   <ItemGroup>

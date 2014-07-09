@@ -14,7 +14,7 @@ using System.IO;
 
 namespace AndroidApplication1
 {
-    [Activity(Label = "IsolatedStorage", MainLauncher = true)]
+    [Activity(Label = "IsolatedStorage")]
     public class IsolatedStorage : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -79,12 +79,14 @@ namespace AndroidApplication1
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
             //將Resoirces下的Menu/OptionMenu.xml 載入
+            base.OnCreateOptionsMenu(menu);
             MenuInflater.Inflate(Resource.Menu.OptionMenu, menu);
             return true;
         }
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
+            base.OnOptionsItemSelected(item);
             switch (item.ItemId)
             {
                 //如果選取的是 開啟當麻許的超技八

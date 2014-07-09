@@ -5,4 +5,6 @@
   <string name="CallHistory">Call History</string>
   <string name="counterbutton_text">CounterButton</string>
   <string name="mybutton_text">myButton</string>
+  <string name ="new_game">New_Games</string>
+  <string name="help">Helps</string>
 </resources>

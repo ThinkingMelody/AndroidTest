@@ -13,7 +13,7 @@ using System.IO;
 
 namespace AndroidApplication1
 {
-    [Activity(Label = "atyInternalStorage", MainLauncher = true)]
+    [Activity(Label = "atyInternalStorage")]
     public class atyInternalStorage : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -74,9 +74,9 @@ namespace AndroidApplication1
 
                 return System.IO.File.ReadAllText(GetFileStreamPath("/") + filename);
             }
-            catch (Exception ex)
+            catch
             {
-                throw ex;
+                throw;
             }
         }
     }
