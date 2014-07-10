@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace AndroidApplication1
 {
-    [Activity(Label = "atyOptionMenu", MainLauncher = true)]
+    [Activity(Label = "atyOptionMenu")]
     public class atyOptionMenu : Activity
     {
         public const int aboutBtnID = Menu.First;

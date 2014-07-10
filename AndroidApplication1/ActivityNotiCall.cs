@@ -22,7 +22,7 @@ namespace AndroidApplication1
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
+            
             // Create your application here
             SetContentView(Resource.Layout.NotificationCall);
 
@@ -51,8 +51,6 @@ namespace AndroidApplication1
             };
 
             dtNow = DateTime.Today;
-
-
         }
 
         private void UpdateDispaly()

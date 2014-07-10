@@ -7,4 +7,19 @@
   <string name="mybutton_text">myButton</string>
   <string name ="new_game">New_Games</string>
   <string name="help">Helps</string>
+  <string-array name="countries">
+    <item>Sweden</item>
+    <item>Norway</item>
+    <item>Finland</item>
+    <item>Denmark</item>
+    <item>Germany</item>
+    <item>Poland</item>
+    <item>Netherlands</item>
+    <item>Belgium</item>
+  </string-array>
+  <string-array name="menu">
+    <item>Edit</item>
+    <item>Delete</item>
+    <item>Send</item>
+  </string-array>
 </resources>

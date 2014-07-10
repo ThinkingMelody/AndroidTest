@@ -63,6 +63,7 @@
     <Compile Include="atFlate.cs" />
     <Compile Include="atWCF.cs" />
     <Compile Include="atyCamera.cs" />
+    <Compile Include="atyContentMenu.cs" />
     <Compile Include="atyInternalStorage.cs" />
     <Compile Include="atyOptionMenu.cs" />
     <Compile Include="BitmapHelpers.cs" />
@@ -122,6 +123,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\ltOptionMenu.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ltContentMenu.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <None Include="Web References\CylifeAppReference\AppServices.wsdl" />
