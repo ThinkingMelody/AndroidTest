@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace AndroidApplication1
 {
-    [Activity(Label = "atyContentMenu", MainLauncher = true)]
+    [Activity(Label = "atyContentMenu")]
     public class atyContentMenu : Activity
     {
         private string[] _countries;

@@ -67,6 +67,7 @@
     <Compile Include="atyContentMenu.cs" />
     <Compile Include="atyInternalStorage.cs" />
     <Compile Include="atyOptionMenu.cs" />
+    <Compile Include="atySQLite.cs" />
     <Compile Include="BitmapHelpers.cs" />
     <Compile Include="Child1.cs" />
     <Compile Include="CPhoneTranslator.cs" />
@@ -128,6 +129,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\ltContentMenu.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\ltSQLite.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <None Include="Web References\CylifeAppReference\AppServices.wsdl" />
