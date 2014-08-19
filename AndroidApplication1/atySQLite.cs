@@ -14,7 +14,7 @@ using Mono.Data.Sqlite;
 
 namespace AndroidApplication1
 {
-    [Activity(Label = "atySQLite", MainLauncher = true)]
+    [Activity(Label = "atySQLite")]
     public class atySQLite : Activity
     {
         string connectionString;
