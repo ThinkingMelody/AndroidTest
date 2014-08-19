@@ -13,7 +13,7 @@
 // 
 #pragma warning disable 1591
 
-namespace AndroidApplication1.CylifeAppReference {
+namespace AndroidApplication1.CylifeReference {
     using System;
     using System.Web.Services;
     using System.Diagnostics;
@@ -111,13 +111,12 @@ namespace AndroidApplication1.CylifeAppReference {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/IAppServices/getAccountInfo", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        [return: System.Xml.Serialization.XmlArrayAttribute(IsNullable=true)]
-        [return: System.Xml.Serialization.XmlArrayItemAttribute("KeyValueOfstringstring", Namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays", IsNullable=false)]
-        public ArrayOfKeyValueOfstringstringKeyValueOfstringstring[] getAccountInfo([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string strID, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string strKind) {
+        [return: System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
+        public string getAccountInfo([System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string strID, [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)] string strKind) {
             object[] results = this.Invoke("getAccountInfo", new object[] {
                         strID,
                         strKind});
-            return ((ArrayOfKeyValueOfstringstringKeyValueOfstringstring[])(results[0]));
+            return ((string)(results[0]));
         }
         
         /// <remarks/>
@@ -158,41 +157,6 @@ namespace AndroidApplication1.CylifeAppReference {
                 return true;
             }
             return false;
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.33440")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays")]
-    public partial class ArrayOfKeyValueOfstringstringKeyValueOfstringstring {
-        
-        private string keyField;
-        
-        private string valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string Key {
-            get {
-                return this.keyField;
-            }
-            set {
-                this.keyField = value;
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
-        public string Value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-            }
         }
     }
     
@@ -248,10 +212,10 @@ namespace AndroidApplication1.CylifeAppReference {
         }
         
         /// <remarks/>
-        public ArrayOfKeyValueOfstringstringKeyValueOfstringstring[] Result {
+        public string Result {
             get {
                 this.RaiseExceptionIfNecessary();
-                return ((ArrayOfKeyValueOfstringstringKeyValueOfstringstring[])(this.results[0]));
+                return ((string)(this.results[0]));
             }
         }
     }

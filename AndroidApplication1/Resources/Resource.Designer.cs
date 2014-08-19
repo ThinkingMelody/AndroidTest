@@ -97,23 +97,23 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f070006
 			public const int btnBlackWidow = 2131165190;
 			
-			// aapt resource value: 0x7f070028
-			public const int btnCall = 2131165224;
-			
 			// aapt resource value: 0x7f070029
-			public const int btnCallHistory = 2131165225;
+			public const int btnCall = 2131165225;
+			
+			// aapt resource value: 0x7f07002a
+			public const int btnCallHistory = 2131165226;
 			
 			// aapt resource value: 0x7f070018
 			public const int btnCamera = 2131165208;
 			
-			// aapt resource value: 0x7f07002e
-			public const int btnChild = 2131165230;
+			// aapt resource value: 0x7f07002f
+			public const int btnChild = 2131165231;
 			
-			// aapt resource value: 0x7f07002c
-			public const int btnClickButton = 2131165228;
+			// aapt resource value: 0x7f07002d
+			public const int btnClickButton = 2131165229;
 			
-			// aapt resource value: 0x7f07002a
-			public const int btnConfigInstance = 2131165226;
+			// aapt resource value: 0x7f07002b
+			public const int btnConfigInstance = 2131165227;
 			
 			// aapt resource value: 0x7f070021
 			public const int btnCreateDb = 2131165217;
@@ -133,8 +133,8 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f070004
 			public const int btnLoad = 2131165188;
 			
-			// aapt resource value: 0x7f07002b
-			public const int btnMyButton = 2131165227;
+			// aapt resource value: 0x7f07002c
+			public const int btnMyButton = 2131165228;
 			
 			// aapt resource value: 0x7f070020
 			public const int btnReadFolder = 2131165216;
@@ -154,11 +154,11 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f07000a
 			public const int btnStartActivity = 2131165194;
 			
-			// aapt resource value: 0x7f07002d
-			public const int btnToastImage = 2131165229;
+			// aapt resource value: 0x7f07002e
+			public const int btnToastImage = 2131165230;
 			
-			// aapt resource value: 0x7f070027
-			public const int btnTranslate = 2131165223;
+			// aapt resource value: 0x7f070028
+			public const int btnTranslate = 2131165224;
 			
 			// aapt resource value: 0x7f07001f
 			public const int btnWriteFolder = 2131165215;
@@ -166,20 +166,20 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f07001d
 			public const int btnWriteInternal = 2131165213;
 			
-			// aapt resource value: 0x7f070032
-			public const int button1 = 2131165234;
-			
-			// aapt resource value: 0x7f070034
-			public const int button3 = 2131165236;
+			// aapt resource value: 0x7f070033
+			public const int button1 = 2131165235;
 			
 			// aapt resource value: 0x7f070035
-			public const int button4 = 2131165237;
+			public const int button3 = 2131165237;
 			
 			// aapt resource value: 0x7f070036
-			public const int button5 = 2131165238;
+			public const int button4 = 2131165238;
 			
-			// aapt resource value: 0x7f070038
-			public const int button6 = 2131165240;
+			// aapt resource value: 0x7f070037
+			public const int button5 = 2131165239;
+			
+			// aapt resource value: 0x7f070039
+			public const int button6 = 2131165241;
 			
 			// aapt resource value: 0x7f07003b
 			public const int button7 = 2131165243;
@@ -187,17 +187,17 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f070015
 			public const int checkBox1 = 2131165205;
 			
-			// aapt resource value: 0x7f070031
-			public const int checkBox2 = 2131165233;
+			// aapt resource value: 0x7f070032
+			public const int checkBox2 = 2131165234;
 			
-			// aapt resource value: 0x7f070037
-			public const int datePicker1 = 2131165239;
+			// aapt resource value: 0x7f070038
+			public const int datePicker1 = 2131165240;
 			
 			// aapt resource value: 0x7f070001
 			public const int editTextContent = 2131165185;
 			
-			// aapt resource value: 0x7f070026
-			public const int etxtPhoneNumberText = 2131165222;
+			// aapt resource value: 0x7f070027
+			public const int etxtPhoneNumberText = 2131165223;
 			
 			// aapt resource value: 0x7f070040
 			public const int help = 2131165248;
@@ -253,20 +253,20 @@ namespace AndroidApplication1
 			// aapt resource value: 0x7f070016
 			public const int relativeLayout1 = 2131165206;
 			
-			// aapt resource value: 0x7f07002f
-			public const int tableLayout1 = 2131165231;
-			
 			// aapt resource value: 0x7f070030
-			public const int tableRow2 = 2131165232;
+			public const int tableLayout1 = 2131165232;
 			
-			// aapt resource value: 0x7f070033
-			public const int tableRow3 = 2131165235;
+			// aapt resource value: 0x7f070031
+			public const int tableRow2 = 2131165233;
+			
+			// aapt resource value: 0x7f070034
+			public const int tableRow3 = 2131165236;
 			
 			// aapt resource value: 0x7f070002
 			public const int textView1 = 2131165186;
 			
-			// aapt resource value: 0x7f070039
-			public const int textView2 = 2131165241;
+			// aapt resource value: 0x7f070026
+			public const int textView2 = 2131165222;
 			
 			// aapt resource value: 0x7f07003a
 			public const int textView3 = 2131165242;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.16.6.123/CylifeAppservice/PersonnelServices.svc?xsd=xsd0" filename="PersonnelServices.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://172.16.6.123/CylifeAppservice/PersonnelServices.svc?xsd=xsd1" filename="PersonnelServices0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://172.16.6.123/CylifeAppservice/PersonnelServices.svc?disco" filename="PersonnelServices.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://172.16.6.123/CylifeAppservice/PersonnelServices.svc?wsdl" filename="PersonnelServices.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>
