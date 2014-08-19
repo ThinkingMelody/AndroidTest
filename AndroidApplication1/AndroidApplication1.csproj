@@ -48,6 +48,7 @@
   <ItemGroup>
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Support.v4" />
+    <Reference Include="Mono.Data.Sqlite" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -69,6 +70,7 @@
     <Compile Include="BitmapHelpers.cs" />
     <Compile Include="Child1.cs" />
     <Compile Include="CPhoneTranslator.cs" />
+    <Compile Include="CSQLite.cs" />
     <Compile Include="CylifeWebView.cs" />
     <Compile Include="IsolatedStorage.cs" />
     <Compile Include="MainActivity.cs" />
