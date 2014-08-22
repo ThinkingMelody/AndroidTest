@@ -245,6 +245,11 @@ namespace AndroidApplication1
             return objResult;
         }
 
+        public void ClearParameters()
+        {
+            this._parameters.Clear();
+        }
+
         #endregion
 
     }
