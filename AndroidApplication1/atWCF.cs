@@ -82,9 +82,9 @@ namespace AndroidApplication1
             //    }
             //}
 
-            //string strSearchDine = MyWCF.SearchDine("B121226579", "10305");
-            //DataTable dtSearch = new DataTable("EedList");
-            //dtSearch = (DataTable)JsonConvert.DeserializeObject(strSearchDine.Trim(), dtSearch.GetType());
+            string strSearchDine = MyWCF.SearchDine("B121226579", "10305");
+            DataTable dtSearch = new DataTable("EedList");
+            dtSearch = (DataTable)JsonConvert.DeserializeObject(strSearchDine.Trim(), dtSearch.GetType());
 
             string OfficialDocuments = MyWCF.SearchOfficialDocuments("B121226579");
             List<JObject> _documents = JsonConvert.DeserializeObject<List<JObject>>(OfficialDocuments);
